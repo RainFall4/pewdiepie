@@ -1,0 +1,55 @@
+html body 
+{
+	height: 100%;
+	width: 100%;
+}
+
+body 
+{
+	background: url(https://pixelz.cc/wp-content/uploads/2018/12/pewdiepie-red-and-black-wavy-background-uhd-4k-wallpaper.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.col {
+	background-color: black;
+	border-left: 1px solid rgb(249, 1, 63);
+	color: white;
+	text-align: center;
+}
+
+.mainInfo 
+{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;
+    height: 90vh;
+}
+
+h1
+{
+	font-family: 'Teko';
+	color: white;
+	font-size: 10em;
+}
+
+
+
+.buttonContainer 
+{
+	flex-direction: row;
+}
+
+.btn-primary 
+{
+	background-color: black;
+	border: black;
+	border-radius: 30px;
+	padding: 0.5em ;
+	margin: 1em;
+}
+
+.btn-primary:hover 
+{
+	background-color: rgb(249, 1, 63);
+}
